@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.cell img {
+    width: 25px;
+    height: auto;
+}
+
+.floor {
+    background-color: gray;
+}
+
+.passage {
+    background-color: gray;
+}
+
+.wall {
+    background-color: brown;
+}
+
+.player-info {
+    color: black;
+    font-size: larger;
+    border: 2px solid gray;
+    display: inline-block;
+    padding: auto;
+    border-radius: 5px;
+    background-color: rgb(169, 121, 121);
+    text-shadow: 2px 2px 2px gray;
+}
+
+.game-over {
+    margin: 10px;
+}
+
+.balls-collected {
+    padding: 10px;
+    margin: 10px;
+}
+
+table {
+    margin: auto;
+    padding-top: 10px;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    font-size: large;
+}
